@@ -1,0 +1,33 @@
+# Ignorar ambiente virtual
+tts-env/
+venv/
+env/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configurações do editor
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Arquivos de teste
+*.coverage
+.coverage.*
+
+# Pasta de build, dist e egg
+build/
+dist/
+*.egg-info/
+
+# Outros
+*.egg

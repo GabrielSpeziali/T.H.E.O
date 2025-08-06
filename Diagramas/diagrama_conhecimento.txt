@@ -1,0 +1,16 @@
+📁 memoria_conhecimento.json
+│
+├── "Lógica de programação"
+│   ├── "Variáveis"
+│   │   └── Lista de frases sobre variáveis
+│   ├── "Funções"
+│   │   └── Lista de frases sobre funções
+│   └── "Algoritmos"
+│       └── Lista de frases sobre algoritmos
+│
+├── "Arduino"
+│   ├── "Sensores"
+│   ├── "LEDs"
+│   └── "Programação"
+│
+└── Outros temas...

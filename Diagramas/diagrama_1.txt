@@ -1,0 +1,59 @@
++-----------------------+
+|       main.py         |
++-----------------------+
+| - Inicia o programa   |
+| - Chama ouvir()       |
+| - Recebe comando      |
+| - Executa comando     |
++-----------------------+
+          |
+          v
++-----------------------+
+|     ouvir()           |
++-----------------------+
+| - Usa speech_recog.   |
+| - Escuta microfone    |
+| - Converte voz em texto
++-----------------------+
+          |
+          v
++-----------------------+
+|     falar(texto)      |
++-----------------------+
+| - Usa pyttsx3         |
+| - Converte texto em voz
+| - Fala com voz local  |
++-----------------------+
+          |
+          v
++------------------------+
+|  comandos.py           |
++------------------------+
+| - Função              |
+|   executar_comando()  |
+| - Reconhece ações     |
+| - Executa (abrir site,|
+|   responder, etc.)    |
++------------------------+
+
+🔄 Fluxo de execução
+main.py inicia → chama falar("Olá!")
+
+Entra em loop:
+
+ouvir() capta comando
+
+executar_comando() decide o que fazer
+
+falar() responde com voz local (pyttsx3)
+
+📌 Detalhes importantes
+Usa pyttsx3 (voz local, leve, offline).
+
+Usa speech_recognition com Google (online).
+
+Suporte para diferentes vozes por dispositivo.
+
+Modularizado: main.py e comandos.py.
+
+
